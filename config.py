@@ -1,2 +1,0 @@
-BOT_TOKEN = "7289066594:AAESVW3YvI6WCGvClJX1Fr-p8h_vfDyFfUY"
-admin = ""
