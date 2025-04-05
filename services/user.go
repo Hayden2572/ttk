@@ -34,8 +34,8 @@ func (s *UserService) UpdateUser(id uint, updatedUser *models.User) (*models.Use
 	if updatedUser.Username != "" {
 		user.Username = updatedUser.Username
 	}
-	if updatedUser.Email != "" {
-		user.Email = updatedUser.Email
+	if updatedUser.Username != "" {
+		user.Username = updatedUser.Username
 	}
 
 	err = s.userRepo.Update(user)
